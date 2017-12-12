@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Rachel Cavin</title>
+</head>
+<body>
+
+<!-- ================ NAVIGATION BAR ===================== -->
+  <div>
+    <nav>
+      <div class="divider"><hr></div>
+      <!-- DROPDOWN MENU -->
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <ul class = "dropdownContent">
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="divider"><hr></div>
+    </nav>
+  </div>
+
+  <!-- ================== HEADER ================== -->
+  <header>
+    <h1 id="title">Rachel Cavin</h1>
+    <h2 id="subtitle">Full Stack Web Developer</h3>
+    <div id="outerBorder">
+      <div id="innerBorder">
+        <img src="assets/MeResize.jpg" id= "photoOfMe" alt="Headshot of Rachel Cavin.">
+      </div>
+    </div>
+    <div class="goDown">
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </div>
+  </header>
+  <main>
+
+    <!-- ====================== ABOUT ============================= -->
+    <section id="aboutMe">
+      <div class="sectionHeader">
+        <h3>About</h3>
+      </div>
+      <div class="sectionBody" id="aboutBody">
+        <div id="textContainer">
+          <p>I'm a full stack web developer currently enrolled in the Galvanize
+            Web Development Bootcamp in Austin, Texas. Following my graduation in
+            January 2018, I will be seeking full time employment as a web developer
+            in the Austin area.</p>
+
+            <p>I've loved web development for a long time, and began to consider it
+            as a career option in late 2016. I have worked hard for over a year
+            to develop my skills in order to build web-based applications professionally.
+            I am a determined and driven developer who is skilled at teaching myself
+            new techniques that I can readily apply to solve problems.</p>
+
+            <p>I live in Round Rock, Texas with my fiance, Ben, our dog, Zelda, our
+            cats, Moxie and Wiley, and our silkie chickens. When I'm not coding,
+            I enjoy video games, scary movies, cooking, and hiking.</p>
+          </div>
+          <div id="imgContainer">
+            <img src="assets/family.jpg" id="familyPhoto" alt="Rachel Cavin with her family">
+          </div>
+      </div>
+    </section>
+
+    <!-- ============================= SKILLS ============================= -->
+    <section id="skills">
+      <div class="sectionHeader">
+        <h3>Skills</h3>
+      </div>
+      <div class="sectionBody">
+        <div class="skillset">
+          <h4 style="display: inline;">Languages:</h4><p style="display: inline;">Javascript, HTML, CSS</p>
+        </div>
+
+        <div class="skillset">
+          <h4 style="display: inline;">Front-End:</h4><p style="display: inline;">React, Angular, JQuery</p>
+        </div>
+
+        <div class="skillset">
+          <h4 style="display: inline;">Server-Side:</h4><p style="display: inline;">Node, Express, Knex</p>
+        </div>
+
+        <div class="skillset">
+          <h4 style="display: inline;">Databases:</h4><p style="display: inline;">PostgreSQL, SQL</p>
+        </div>
+
+        <div class="skillset">
+          <h4 style="display: inline;">Version Control Systems:</h4><p style="display: inline;">Git, Github</p>
+        </div>
+
+        <div class="skillset">
+          <h4 style="display: inline;">Web Development:</h4><p style="display: inline;">REST APIs, AJAX, Test Driven Development (Mocha and Chai), Responsive Design</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================= PROJECTS =========================== -->
+    <section id="projects">
+      <div class="sectionHeader">
+        <h3>Projects</h3>
+      </div>
+      <div class="sectionBody" id="projectBody">
+        <div class="projectContainer">
+          <h3>Recipeers</h3>
+          <img class="projectImg" src="assets/recipeers.png" alt="">
+          <div class="projectLinks">
+            <a href="https://github.com/DTThor/Recipeers" >Repo</a>
+            <a href="https://recipeers.herokuapp.com/">Demo</a>
+          </div>
+        </div>
+        <div class="projectContainer">
+          <h3>Coming Soon </h3>
+          <img src="" alt="">
+          <div class="projectLinks">
+            <a href=""></a>
+            <a href=""></a>
+          </div>
+        </div>
+        <div class="projectContainer">
+          <h3>Coming Soon</h3>
+          <img src="" alt="">
+          <div class="projectLinks">
+            <a href=""></a>
+            <a href=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CONTACT ============================= -->
+    <section id="contact">
+      <div class="sectionHeader">
+        <h3>Contact</h3>
+      </div>
+      <div class="sectionBody" id="contactContainer">
+        <span><i class="fa fa-envelope-o" aria-hidden="true"><a class="contactLink" href="mailto:rmcavin@gmail.com">   Email</a></i></span>
+        <span><i class="fa fa-github" aria-hidden="true"><a class="contactLink" href="https://github.com/Rmcavin">   Github</a></i></span>
+        <span><i class="fa fa-linkedin" aria-hidden="true"><a class="contactLink" href="https://www.linkedin.com/in/rmcavin/">   LinkedIn</a></i></span>
+      </div>
+    </section>
+  </main>
+
+
+<!-- ============================= FOOTER =============================== -->
+  <footer>
+    <div class="divider"><hr></div>
+    Built by Rachel Cavin, 2017
+  </footer>
+
+</body>
+</html>
