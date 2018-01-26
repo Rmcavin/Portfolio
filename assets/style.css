@@ -53,6 +53,12 @@
     list-style: none;
   }
 
+  /* HIGH RESOLUTION SCREENS */
+    @media (min-width: 1600px) {
+
+
+    }
+
   /* ============== HEADER ================= */
 
   header {
@@ -130,6 +136,40 @@
 
   .fa-angle-down {
     animation: 1s pulse infinite;
+  }
+
+/* HIGH RESOLUTION SCREENS */
+  @media (min-width: 1600px) {
+    header {
+      height: 40vh;
+    }
+
+    #photoOfMe {
+      width: 400px;
+      height: 400px;
+    }
+
+    #innerBorder {
+      width: 400px;
+      height: 400px;
+    }
+
+    #outerBorder {
+      width: 400px;
+      height: 400px;
+    }
+
+    #title {
+      font-size: 8em;
+    }
+
+    #subtitle {
+      font-size: 3em;
+    }
+
+    .goDown {
+      font-size: 8em;
+    }
   }
 
   /*================= SECTIONS ==================== */
